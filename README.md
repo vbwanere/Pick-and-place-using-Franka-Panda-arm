@@ -17,7 +17,7 @@ This project implements the damped least square inverse kinematic solver for blo
 - **Collision Avoidance**: Smart picking order to prevent platform collisions.
 
 ## Technical Implementation
-This detailed [report]() explains the steps involved in successful implementation.
+This detailed [report](doc/Pick and Place with Franka Panda Arm-2023.pdf) explains the steps involved in successful implementation.
 
 ## Performance
 - Successfully stacks 4 static blocks in 90 seconds.
