@@ -27,6 +27,7 @@ This detailed [report](https://github.com/vbwanere/Pick-and-place-using-Franka-P
 
 ### Vision System:
 Three functions used to get the pose and orientation of blocks are included in the [```PoseForStaticBlock.py```](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/final/PoseForStaticBlock.py)
+
 A demo on how to use them is also showed in the [```pick-place.py```](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/final/pick-place.py)
 
 ### Discrepency between red and blue:
