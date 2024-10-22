@@ -7,7 +7,7 @@ This project implements an automated block-stacking system using a Franka Panda 
 - Stack blocks precisely on a target platform
 - Use computer vision (April Tags) for block detection and positioning
 
-![Image]()
+![Image](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/images/DSCF1747.jpg)
 
 ## Key Features
 - **Path Planning**: Uses pre-defined configurations to optimize IK solving time.
