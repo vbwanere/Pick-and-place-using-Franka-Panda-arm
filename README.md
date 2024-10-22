@@ -1,11 +1,11 @@
 # Pick and place using Franka Panda arm
 
 ## Overview
-This project implements an automated block-stacking system using a Franka Panda robotic arm. The system can:
-- Pick blocks from static platforms
-- Pick blocks from moving (dynamic) platforms
-- Stack blocks precisely on a target platform
-- Use computer vision (April Tags) for block detection and positioning
+This project implements the damped least square inverse kinematic solver for block-stacking using a Franka Panda robotic arm. The system can:
+- Pick blocks from static platforms.
+- Pick blocks from moving (dynamic) platforms.
+- Stack blocks precisely on a target platform.
+- Use computer vision (April Tags) for block detection and positioning.
 
 ![Image](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/images/DSCF1747.jpg)
 
@@ -17,23 +17,7 @@ This project implements an automated block-stacking system using a Franka Panda 
 - **Collision Avoidance**: Smart picking order to prevent platform collisions.
 
 ## Technical Implementation
-
-### Static Block Handling
-- Uses computer vision for block detection.
-- Implements geometric tricks for gripper alignment.
-- Optimized path planning sequence: scan → grab → stack.
-
-### Dynamic Block Handling
-- Uses Damped Least Squares method for inverse kinematics.
-- 10-degree gripper tilt for collision avoidance.
-- Wait-and-pick strategy with position feedback.
-
-### Vision System
-**Transformation Pipeline**:
-
-```
-CopyH_arm_block = H_arm_ee . H_ee_camera . H_camera_block
-```
+This detailed [report]() explains the steps involved in successful implementation.
 
 ## Performance
 - Successfully stacks 4 static blocks in 90 seconds.
@@ -62,4 +46,4 @@ CopyH_arm_block = H_arm_ee . H_ee_camera . H_camera_block
 ## Acknowledgments
 Special thanks to Prof. Nadia and the Teaching Assistants for their guidance and support throughout the project.
 
-Project completed as part of MEAM 5200.
+## References:
