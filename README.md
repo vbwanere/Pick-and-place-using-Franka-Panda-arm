@@ -67,4 +67,6 @@ def get_IK_solution(pose_in_world_frame: np.ndarray,
 Special thanks to Prof. Nadia and the Teaching Assistants for their guidance and support throughout the project.
 
 ## References:
+[1] Spong, M.W., Hutchinson, S.A., & Vidyasagar, M. (2005). Robot Modeling and Control.
+[2] d
 
