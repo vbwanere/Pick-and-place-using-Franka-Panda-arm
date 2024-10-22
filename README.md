@@ -26,7 +26,7 @@ This detailed [report](https://github.com/vbwanere/Pick-and-place-using-Franka-P
 * The robot may not reach the point above the center of the turntable, so we may need to tune the orientation of the end-effector or come up with a new idea to determine the location of the dynamic blocks
 
 ### Vision System:
-Three functions used to get the pose and orientation of blocks are included in the ```PoseForStaticBlock.py```
+Three functions used to get the pose and orientation of blocks are included in the [```PoseForStaticBlock.py```](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/final/PoseForStaticBlock.py)
 A demo on how to use them is also showed in the ```pick-place.py```
 
 ### Discrepency between red and blue:
