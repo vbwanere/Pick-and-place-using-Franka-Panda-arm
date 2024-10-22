@@ -7,7 +7,7 @@ This project implements the damped least square inverse kinematic solver for blo
 - Stack blocks precisely on a target platform.
 - Use computer vision (April Tags) for block detection and positioning.
 
-![Image](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/images/DSCF1747.jpg)
+![Image](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/DSCF1747.jpg)
 
 ## Key Features
 - **Path Planning**: Uses pre-defined configurations to optimize IK solving time.
@@ -17,7 +17,7 @@ This project implements the damped least square inverse kinematic solver for blo
 - **Collision Avoidance**: Smart picking order to prevent platform collisions.
 
 ## Technical Implementation
-This detailed [report](doc/Pick and Place with Franka Panda Arm-2023.pdf) explains the steps involved in successful implementation.
+This detailed [report](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/Pick%20and%20Place%20with%20Franka%20Panda%20Arm-2023.pdf) explains the steps involved in successful implementation.
 
 ## Performance
 - Successfully stacks 4 static blocks in 90 seconds.
