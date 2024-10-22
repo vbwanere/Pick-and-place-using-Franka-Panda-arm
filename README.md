@@ -1,4 +1,4 @@
-# Pick and Place Robot Project
+# Pick and place using Franka Panda arm
 
 ## Overview
 This project implements an automated block-stacking system using a Franka Panda robotic arm. The system can:
@@ -31,6 +31,7 @@ This project implements an automated block-stacking system using a Franka Panda 
 ### Vision System
 **Transformation Pipeline**:
 
+''' CopyH_arm_block = H_arm_ee . H_ee_camera . H_camera_block '''
 
 ## Performance
 - Successfully stacks 4 static blocks in 90 seconds.
