@@ -22,7 +22,7 @@ This detailed [report](https://github.com/vbwanere/Pick-and-place-using-Franka-P
 * The intermediate configurations can be tuned manually, and we'd better tune them together when we need Also, a demo function of moving the arm with the pre-defined configurations is provided in the final.py
 
 ### Note:
-* It's important to know the difference between the world and robot frames. The transformation function has been provided in the [RotationForRed.py](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/final/RotationForRed.py)
+* It's important to know the difference between the world and robot frames. The transformation function has been provided in the [```RotationForRed.py```](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/final/RotationForRed.py)
 * The robot may not reach the point above the center of the turntable, so we may need to tune the orientation of the end-effector or come up with a new idea to determine the location of the dynamic blocks
 
 ### Vision System:
