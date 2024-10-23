@@ -20,7 +20,7 @@ This detailed technical [report](https://github.com/vbwanere/Pick-and-place-usin
 * Four intermediate configurations have been calculated and hard-coded into [```IntermediatePoints.py```](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/final/IntermediatePoints.py)
 * Some examples of using them have been provided in the main function of IntermediatePoints.py
 * The function to get the IK solution also has been wrapped in IntermediatePoints.py and some examples are also provided in the main function.
-* The intermediate configurations can be tuned manually, and we'd better tune them together when we needed. Also, a demo function of moving the arm with the pre-defined configurations is provided in the ```pick-place.py```
+* The intermediate configurations can be tuned manually, and we'd better tune them together when we needed. Also, a demo function of moving the arm with the pre-defined configurations is provided in the [```pick-place.py```](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/final/pick-place.py)
 
 ### Note:
 * It's important to know the difference between the world and robot frames. The transformation function has been provided in the [```RotationForRed.py```](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/final/RotationForRed.py)
