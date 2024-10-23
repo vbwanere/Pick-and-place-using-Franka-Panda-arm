@@ -13,7 +13,7 @@ This project implements the damped least square inverse kinematic solver for blo
 
 
 ## Technical Implementation
-This detailed [report](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/Pick%20and%20Place%20with%20Franka%20Panda%20Arm-2023.pdf) explains the steps involved in successful implementation.
+This detailed technical [report](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/Pick%20and%20Place%20with%20Franka%20Panda%20Arm-2023.pdf) explains the steps involved in successful implementation.
 ### See [UPenn MEAM 5200 Course GitHub Page](https://github.com/MEAM520/meam520_labs?tab=readme-ov-file) for istallation and detailed user instructions.
 
 ### Pre-defined Configurations
