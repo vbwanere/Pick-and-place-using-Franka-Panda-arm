@@ -12,7 +12,6 @@ This project implements the damped least square inverse kinematic solver for blo
 ![Image](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/DSCF1747.jpg)
 
 
-
 ## Technical Implementation
 This detailed [report](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/Pick%20and%20Place%20with%20Franka%20Panda%20Arm-2023.pdf) explains the steps involved in successful implementation.
 ### Pre-defined Configurations
@@ -39,6 +38,10 @@ def get_IK_solution(pose_in_world_frame: np.ndarray,
                     seed_in_robot_frame: np.ndarray=np.array([0,0,0,-pi/2,0,pi/2,pi/4]),
                     rotation_for_red_or_blue: object=RotationForRed()):
 ```
+## Use:
+1. ROS Noetic should be installed on ubuntu 20.04.
+2. Can be run on [panda simulator](https://github.com/justagist/panda_simulator/tree/noetic-devel).
+3. 
 
 ## Performance
 - Successfully stacks 4 static blocks in 90 seconds.
