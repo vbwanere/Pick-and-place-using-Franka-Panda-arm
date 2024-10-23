@@ -38,10 +38,8 @@ def get_IK_solution(pose_in_world_frame: np.ndarray,
                     seed_in_robot_frame: np.ndarray=np.array([0,0,0,-pi/2,0,pi/2,pi/4]),
                     rotation_for_red_or_blue: object=RotationForRed()):
 ```
-## Use:
-1. ROS Noetic should be installed on ubuntu 20.04.
-2. Can be run on [panda simulator](https://github.com/justagist/panda_simulator/tree/noetic-devel).
-3. Also run ```pip3 install numba scipy future``` to install ```numba```.
+### See [UPenn MEAM 5200 Course GitHub Page](https://github.com/MEAM520/meam520_labs?tab=readme-ov-file) for detailed user instructions.
+
 
 ## Performance
 - Successfully stacks 4 static blocks in 90 seconds.
