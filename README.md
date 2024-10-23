@@ -41,7 +41,7 @@ def get_IK_solution(pose_in_world_frame: np.ndarray,
 ## Use:
 1. ROS Noetic should be installed on ubuntu 20.04.
 2. Can be run on [panda simulator](https://github.com/justagist/panda_simulator/tree/noetic-devel).
-3. 
+3. Also run ```pip3 install numba scipy future``` to install ```numba```.
 
 ## Performance
 - Successfully stacks 4 static blocks in 90 seconds.
