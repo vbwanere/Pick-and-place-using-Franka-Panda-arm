@@ -196,7 +196,8 @@ class IK:
             return displacement
         def get_angular_velocity_from_axis(axis):
             return axis
-        dq = IK_velocity(q_in=q, v_in=get_linear_velocity_from_displacement(displacement), omega_in=get_angular_velocity_from_axis(axis))
+        dq = IK_velocity(q_in=q, v_in=get_linear_velocity_from_displacement(displacement),
+                        omega_in=get_angular_velocity_from_axis(axis))
 
         ## END STUDENT CODE
 
