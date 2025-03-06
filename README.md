@@ -1,7 +1,7 @@
 # Pick and place using Franka Panda arm
 
 ## Overview
-This project implements the damped least square inverse kinematic solver for block-stacking using a Franka Panda robotic arm.
+This project implements the least square inverse kinematic solver for block-stacking using a Franka Panda robotic arm.
 ### Key Features
 - **Path Planning**: Uses pre-defined configurations to optimize IK solving time.
 - **Vision System**: Implements April Tag detection for accurate block positioning.
