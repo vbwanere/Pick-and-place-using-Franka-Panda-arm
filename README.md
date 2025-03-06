@@ -8,7 +8,8 @@ This project implements the damped least square inverse kinematic solver for blo
 - **Handling Rotary Blocks**: "wait-and-pick" strategy for moving blocks.
 - **Stacking**: Maintains 5 mm safety margins during stacking operations.
 
-![Image](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/DSCF1747.jpg)
+![PickPlaceImage](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/DSCF1747.jpg)
+![PickPlacePostar]([https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/DSCF1747.jpg](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/Pick%20and%20Place.pdf))
 
 
 ## Implementation and Working:
