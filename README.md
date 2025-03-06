@@ -1,15 +1,14 @@
 # Pick and place using Franka Panda arm
 
 ## Overview
-This project implements the least square inverse kinematic solver for block-stacking using a Franka Panda robotic arm.
+This project implements the least square inverse kinematic solver for block-stacking using a Franka Panda robotic arm:
+![PickPlacePostar](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/PickPlacePostarImage.png)
+
 ### Key Features
 - **Path Planning**: Uses pre-defined configurations to optimize IK solving time.
 - **Vision System**: Implements April Tag detection for accurate block positioning.
 - **Handling Rotary Blocks**: "wait-and-pick" strategy for moving blocks.
 - **Stacking**: Maintains 5 mm safety margins during stacking operations.
-
-![PickPlacePostar](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/PickPlacePostarImage.png)
-
 
 ## Implementation and Working:
 ### See [UPenn MEAM 5200 Course GitHub Page](https://github.com/MEAM520/meam520_labs?tab=readme-ov-file) for detailed instructions on installing ROS, Gazebo and other dependencies.
