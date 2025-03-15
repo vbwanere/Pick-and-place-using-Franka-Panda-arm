@@ -44,7 +44,7 @@ def get_IK_solution(pose_in_world_frame: np.ndarray,
 ## 3. Performance
 - Successfully stacks 4 static blocks in 90 seconds.
 - Can handle up to 4 additional dynamic blocks in 210 seconds.
-- Achieves approximately 5 mm axial alignment accuracy.
+- Achieves approximately 5 mm lateral alignment accuracy.
 - Competition-tested and validated.
 
 ## 4. Lessons Learned
