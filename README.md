@@ -31,7 +31,7 @@ Three functions used to get the pose and orientation of blocks are included in t
 A demo on how to use those is also showed in the [```pick-place.py```](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/final/pick-place.py)
 
 ### 2.4 Discrepency between red and blue:
-While solving IK, pay attention to the the fourth argument, rotation_for_red_or_blue, of the following function.
+While solving IK, pay attention to the the fourth argument, ```rotation_for_red_or_blue```, of the following function.
 Please change it to blue if stacking blue side blocks. (refer to the project report)
 ```python
 def get_IK_solution(pose_in_world_frame: np.ndarray, 
