@@ -71,5 +71,6 @@ Special thanks to Prof. Nadia and the Teaching Assistants for their guidance and
 [1](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/Robot%20Modeling%20and%20Control%20by%20Spong.pdf) Spong, M.W., Hutchinson, S.A., & Vidyasagar, M. (2005). Robot Modeling and Control.
 
 [2](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/Introduction%20to%20IK%20with%20Jacobian%20Transpose%20Pseudoinverse%20and%20Damped%20Least%20Squares%20methods.pdf) Buss, Samuel. (2004). Introduction to inverse kinematics with Jacobian transpose, pseudoinverse and damped least squares methods. IEEE Transactions in Robotics and Automation. 17.
+
 [3](https://github.com/vbwanere/Pick-and-place-using-Franka-Panda-arm/blob/main/doc/Overview%20of%20Damped%20Least-Squares%20Methods%20for%20Inverse%20Kinematics%20of%20Robot%20Manipulators.pdf) A. S. Deo and I. D. Walker, "Overview of damped least-squares methods for inverse kinematics of robot manipulators," J. Intell. Robot. Syst., vol. 14, pp. 43–68, 1995.
 
